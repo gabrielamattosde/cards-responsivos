@@ -23,11 +23,11 @@ body{
 }
 .container{
     position: relative;
-    clip-path:polygon(0 0,100% 0,100% 85%, 0 100%);
+    clip-path:polygon(0 0,100% 0,100% 70%, 0 100%);
 }
 
 img{
-    width: 450px;
+    width: 500px;
     display:block;
     border-radius: 20px 20px 0 0;
 }
@@ -60,8 +60,9 @@ img{
     font-weight: 400;
 }
 .card1>.container:after{
-    background-image: linear-gradient(135deg #DAA520 #9d9ef1);
+    background-image: linear-gradient(135deg);
 }
+   
 .card2>.container:after{
     background-image: linear-gradient(135deg);
 }
